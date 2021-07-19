@@ -20,8 +20,6 @@ namespace backToSchool.Controllers
 
 
 
-
-
         //-------------------------------------------
         //             Esta es la vista About
         //-------------------------------------------
