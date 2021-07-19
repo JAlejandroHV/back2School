@@ -145,6 +145,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\SwaggerConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -268,6 +269,9 @@
     <Content Include="Content\assets\extra-libs\taskboard\js\lobilist.js" />
     <Content Include="Content\assets\extra-libs\taskboard\js\lobilist.min.js" />
     <Content Include="Content\assets\extra-libs\taskboard\js\task-init.js" />
+    <Content Include="Content\assets\images\big\3.jpg" />
+    <Content Include="Content\assets\images\big\auth-bg.jpg" />
+    <Content Include="Content\assets\images\big\icon.png" />
     <Content Include="Content\assets\images\custom-select.png" />
     <Content Include="Content\assets\images\favicon.png" />
     <Content Include="Content\assets\images\logo-icon.svg" />
@@ -844,6 +848,7 @@
     <Content Include="Content\scss\icons\icons.scss" />
     <Content Include="Content\scss\style.scss" />
     <None Include="packages.config" />
+    <Content Include="Views\Login\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
